@@ -19,28 +19,29 @@ body{
 
 h1{
     
-    font-size: 170%;
+    font-size: 160%;
     color: darkorange;
     padding: 20px;
     border: 2px solid black;
     width: 759px;
     float:inherit;
-   }
+   font-family: 'Rozha One', serif;}
 
 h2{
     color:darkcyan;
     font-size: 170%;
     font-weight: bold;
-    font-family:
     padding: 20px;
-    float:none;}
+    float:none;
+    font-family: 'Rozha One', serif;}
 
 h3{
     color: darkcyan;
     font-size: 150%;
     font-weight: bold;
     padding: 15px;
-    float:none;}
+    float:none;
+font-family: 'Rozha One', serif;}
 
 h4{
     color: darkcyan;
@@ -48,107 +49,123 @@ h4{
     font-size: 100%;
     font-weight: bold;
     padding: 10px;
-    float: none;}
+    float: none;
+font-family: 'Halant', serif;}
 
 .p1{
     color:darkorange;
     padding: 20px;
     border: 5px solid white;
     margin:auto;
-    float:inline;}
+    float: inherit;
+    font-family: 'Halant', serif;}
 
 
 /*IMAGES*/
 
-div.headingimg{
-    overflow: hidden;
+div.image{
     width: 100%;
-    border: 2px solid black;}
+    height: 100%;}
 
-div.captiancookrock{
-    overflow: hidden;
-    width:100%;
-    height: 400px;
-    border: 2px solid black;}
+.headingimg{width: 100%;
+height:auto;}
 
-div.frontengineersoffice{
-    overflow:hidden;
-    width: 100%;
-    border: 2px solid black;}
+.captiancookrock{
+    width: 100%;}
 
-div.gravestone{
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;}
+.frontengineersoffice{
+    transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    float: inherit;}
 
-div.engineersoffice{
-    overflow: hidden;
-    width: 100%;
-    border: 2px solid black;}
+.gravestone{transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    padding-top: 20%;
+    float: inherit;
+    margin-left: 10%;}
 
-div.kingstonpier{
-    overflow:hidden;
-    width: 100%;
-    border: 2px solid black;}
+.engineersoffice{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    float: inherit;}
 
-div.boatsheds{
-    overflow: hidden;
-    width: 100%;
-    border: 2px solid black;}
+.kingstonpier{
+    width: 100%;}
 
-div.barricsandstore{
-    overflow: hidden;
-    width: 100%;
-    border: 2px solid black;}
+.boatsheds{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    float: inherit;}
 
-div.gaolentrence{
-    overflow: hidden;
-    width:  100%
-    border: 2px solid black;}
+.barricsandstore{
+width:100%;}
 
-div.barricplan{
-    overflow: hidden;
-    width: 100%;
-    border: 2px solid black;}
+.gaolentrence{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    float: inherit;}
 
-div.shoreline{
-    overflow: hidden;
-    width: 100%
-    border: 2px solid black;}
+.barricplan{
+width: 100%;}
 
-img p{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;}
-
+.shoreline{
+transform: rotate(90deg);
+	position:static;
+	width:100%;
+	height:auto;
+    border-radius:8px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    float: inherit;}
 
 /*NAVIGATION*/
 
 nav ul li{
     display: inline-block;
     border: 1px solid white;
-    padding: 8px 38px;
-    margin: 20px;
+    padding: 5px 45px;
     color: inherit;
-font-size: 20px}
+    font-size: 20px;
+    float:left;
+font-family: 'Rozha One', serif;}
 
 nav li{
     display: inline-block;
     border: 1px solid white;
     margin: 20px;
     color: inherit;
-    float:right;}
+    float:right;
+font-family: 'Rozha One', serif;}
 
 ul li{
     display: inline-block;
     border: 1px solid white;
     margin: 10px;
     color: inherit;
-    color: darkorange}
+    color: darkorange;}
 
 div.backtotop{
     float:right;}
@@ -164,9 +181,6 @@ a:visited{
     text-decoration-color: darkorange;}
 a:active{
     color: darkorange;}
-
-/*WRAPPERS*/
-
 
 /* use relative positions smartly, othher elements dont acknolewdge it when it repositions*/
 /*position: relative;
